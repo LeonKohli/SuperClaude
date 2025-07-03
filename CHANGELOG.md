@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `/orchestrate` command for dynamic multi-agent workflow orchestration
+  - No predefined agent types - every agent is dynamically created
+  - Deep task analysis to discover technical requirements
+  - Custom capability synthesis based on discovered needs
+  - Adaptive agent creation as new requirements emerge
+  - Support for recursive spawning and resource constraints
+
 ### Fixed
 - Added missing `/task` command documentation to COMMANDS.md
 - Updated command count references from 18 to 19 across documentation files

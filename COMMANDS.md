@@ -383,7 +383,7 @@ Professional system design with specifications.
 /design --microservices --event-driven   # Microservices design
 ```
 
-### 🔄 Workflow Commands (4)
+### 🔄 Workflow Commands (5)
 
 #### `/spawn` - Specialized Agents
 Spawn focused agents for parallel tasks.
@@ -435,6 +435,30 @@ Load and analyze project context.
 ```bash
 /load --depth deep --patterns --seq       # Deep analysis
 /load --structure --health --standards   # Project assessment
+```
+
+#### `/orchestrate` - Dynamic Agent Orchestration
+Intelligently analyze tasks and dynamically create custom agents with precise capabilities.
+
+**Command-Specific Flags:**
+- `--recursive` - Allow agents to create sub-agents
+- `--max-agents [n]` - Limit total agent count
+- `--adaptive` - Enable runtime adaptation
+- `--ultrathink` - Deep analysis before synthesis
+- `--domain [type]` - Domain-specific expertise
+- `--max-cost [n]` - Resource budget constraint
+
+**Key Features:**
+- **No Predefined Types**: Every agent is uniquely synthesized
+- **Dynamic Creation**: Agents created based on discovered needs
+- **Adaptive Synthesis**: New agents spawned as requirements emerge
+- **Precise Capabilities**: Each agent has exact expertise needed
+
+**Examples:**
+```bash
+/orchestrate "Build modern link shortener"              # Analyzes and creates custom agents
+/orchestrate --recursive "Fix production memory leak"   # Agents can spawn specialists
+/orchestrate --max-agents 8 "Migrate to microservices" # Resource-bounded orchestration
 ```
 
 #### `/task` - Task Management

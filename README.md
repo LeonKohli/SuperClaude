@@ -33,7 +33,7 @@ Claude Code provides powerful capabilities but can benefit from:
 ## ✨ SuperClaude Features
 
 SuperClaude enhances Claude Code with:
-- **18 Specialized Commands** covering development lifecycle tasks
+- **20 Specialized Commands** covering development lifecycle tasks
 - **9 Cognitive Personas** for domain-specific approaches
 - **Token Optimization** with compression options
 - **Evidence-Based Methodology** encouraging documentation
@@ -87,7 +87,7 @@ Switch between different approaches with persona flags:
 
 **v2.0.1 Update**: All 9 personas are now universal flags, available on every command for consistent access to specialized approaches.
 
-### ⚡ **19 Commands**
+### ⚡ **20 Commands**
 Development lifecycle coverage:
 
 **Development Commands**
@@ -261,7 +261,7 @@ SuperClaude v2's architecture enables extensibility:
 - **@include System** – Template engine for configuration
 
 **🎯 Unified Command System**
-- **19 Commands** – Development lifecycle coverage
+- **20 Commands** – Development lifecycle coverage
 - **Flag Inheritance** – Universal flags on all commands
 - **Persona Integration** – 9 cognitive modes as flags
 - **Template Validation** – Reference integrity checking
@@ -283,7 +283,7 @@ SuperClaude v2's architecture enables extensibility:
 | Aspect | Standard Claude Code | SuperClaude Framework |
 |--------|---------------------|----------------------|
 | **Expertise** | General responses | 9 specialized personas |
-| **Commands** | Manual instructions | 19 workflow commands |
+| **Commands** | Manual instructions | 20 workflow commands |
 | **Context** | Session-based | Git checkpoint support |
 | **Tokens** | Standard usage | Compression options |
 | **Approach** | General purpose | Evidence-based |
@@ -376,7 +376,7 @@ Join the community: [Discussions](https://github.com/NomenAK/SuperClaude/discuss
 - **Maintenance**: Centralized configuration
 
 **📊 Framework Details:**
-- **Commands**: 19 specialized commands
+- **Commands**: 20 specialized commands
 - **Personas**: 9 cognitive approaches
 - **MCP Servers**: 4 integrations
 - **Methodology**: Evidence-based approach
