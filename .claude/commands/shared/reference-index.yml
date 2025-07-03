@@ -3,7 +3,7 @@
 ## Legend
 @include universal-constants.yml#Universal_Legend
 
-## Command Files (19)
+## Command Files (20)
 ```yaml
 analyze.md: Analyze code/data/performance/architecture
 build.md: Create components/features/systems
@@ -19,13 +19,14 @@ improve.md: Optimize/refactor/enhance code
 index.md: SuperClaude command reference
 load.md: Bulk file/context operations
 migrate.md: Migrate code/data/systems
+orchestrate.md: Dynamic agent orchestration
 scan.md: Security/quality/compliance scanning
 spawn.md: Create projects/components/agents
 test.md: Testing operations & strategies
 troubleshoot.md: Debug/diagnose/fix issues
 ```
 
-## Optimized Shared Resources (12 core)
+## Optimized Shared Resources (13 core)
 ```yaml
 Root Level:
   architecture-patterns.yml: DDD/microservices/event patterns
@@ -40,6 +41,7 @@ Consolidated Patterns:
   execution-patterns.yml: Unified workflow, MCP orchestration & lifecycle
   docs-patterns.yml: Documentation system patterns
   flag-inheritance.yml: Flag inheritance rules
+  orchestration-patterns.yml: Dynamic agent orchestration patterns
   quality-patterns.yml: Quality control & validation patterns
   research-patterns.yml: Research flow patterns
   reference-patterns.yml: Optimized reference system
@@ -58,6 +60,7 @@ Research: → research-patterns.yml
 Workflows: → execution-patterns.yml
 MCP Orchestration: → execution-patterns.yml
 References: → reference-patterns.yml
+Dynamic Agents: → orchestration-patterns.yml
 ```
 
 ## File Organization

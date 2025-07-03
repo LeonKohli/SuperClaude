@@ -3,14 +3,14 @@
 @include shared/universal-constants.yml#Universal_Legend
 
 ## Ultra-Compressed Reference
-Commands: `/cmd --flags` | 19 total | Universal flags available
+Commands: `/cmd --flags` | 20 total | Universal flags available
 
 @include shared/flag-inheritance.yml#Universal_Always
 
 ## Command Categories
 **Analysis**: `/analyze` `/scan` `/explain` `/review`
 **Build**: `/build` `/deploy` `/migrate` 
-**Manage**: `/task` `/load` `/cleanup`
+**Manage**: `/task` `/load` `/cleanup` `/orchestrate`
 **Dev**: `/test` `/troubleshoot` `/improve`
 **Utils**: `/design` `/document` `/estimate` `/dev-setup` `/git` `/spawn`
 
@@ -19,7 +19,7 @@ Commands: `/cmd --flags` | 19 total | Universal flags available
 **Analysis**: `/analyze` --code|arch | `/review` --files|commit|pr | `/troubleshoot` --fix|prod | `/improve` --perf|quality | `/explain` --depth
 **Ops**: `/deploy` --env|rollback | `/migrate` --dry-run | `/scan` --security | `/estimate` --detailed | `/cleanup` --all | `/git` --commit|sync
 **Design**: `/design` --api|ddd | `/document` --api|user | `/spawn` --task
-**Manage**: `/task` :create|:status|:resume | `/load` --context
+**Manage**: `/task` :create|:status|:resume | `/load` --context | `/orchestrate` --recursive|adaptive
 ## Workflow Patterns
 **Setup**: `/load` → `/dev-setup --install` → `/build --init` → `/test`
 **Feature**: `/analyze` → `/design --api` → `/build --tdd` → `/test --e2e` → `/deploy`
@@ -34,6 +34,7 @@ Power User Patterns:
   UI Development: /build --react --magic --pup --watch
   Production Deploy: /scan --validate --seq → /deploy --env prod --think-hard
   Emergency Debug: /troubleshoot --prod --ultrathink --seq
+  Dynamic Teams: /orchestrate --recursive "complex multi-faceted task"
   
 Research & Learning:
   Library Study: /explain --c7 --seq --depth expert "React hooks"
